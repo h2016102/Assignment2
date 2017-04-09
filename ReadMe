@@ -1,0 +1,7 @@
+Code Block Device Driver
+RAM is used as a hard disk and It is partitioned in 7 parts with name mydisk1, mydisk2, mydisk3 and os on.
+Commands to run the module : 
+1. make                       // to compile the module
+2. sudo insmod ./dor.ko       // to insert the module in the kernel
+3. sudo rmmod  ./dor.ko        // to remove the module
+4. sudo cat > /dev/mydisk        // to write on disk from terminal
